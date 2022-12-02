@@ -1,0 +1,161 @@
+.my-heading {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.portfolio-welcome-top {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+}
+
+.portfolio-welcome-below {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.portfolio-image {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 14px 16px;
+}
+
+.nav-links a:hover:not(.active) {
+  border: solid;
+}
+
+.nav-links li a.active {
+  background-color: lightblue;
+  color: black;
+}
+
+.showcase-row {
+  display: flex;
+}
+
+.showcase-column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.showcase-image-text {
+  text-align: center;
+  font-size: 30px;
+}
+
+.bio-top {
+  flex: 50%;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bio-headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 210px;
+  width: 140px;
+}
+
+.bio-info {
+  font-family: "Montserrat", sans-serif;
+}
+
+#footer {
+  height: 50px;
+  width: 100%;
+  background-color: #ffcccc;
+  clear: both;
+  position: relative;
+}
+
+.left-margin {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: left;
+  position: inherit;
+}
+
+.right-margin {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: right;
+  position: inherit;
+}
+
+.main-section {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 85%;
+  height: 1000px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: 'Cormorant Garamond';
+}
+
+.iframe-resume {
+  width: 100%;
+  height: 1000px;
+}
+
+.iframe-database {
+   width: 100%;
+   height:1000px;
+}
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+# For bio
+.job-title {
+    color: red;
+    font-weight: bold;
+}
+
+.bio-info {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-content {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
